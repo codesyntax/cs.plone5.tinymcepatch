@@ -4,7 +4,7 @@ Changelog
 1.1 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Change metadata [erral]
 
 
 1.0 (2017-02-09)
