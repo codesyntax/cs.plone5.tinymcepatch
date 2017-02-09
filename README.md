@@ -1,0 +1,1 @@
+# cs.plone5.tinymcepatch
