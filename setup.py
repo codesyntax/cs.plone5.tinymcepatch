@@ -12,12 +12,13 @@ setup(name='cs.plone5.tinymcepatch',
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
         "Framework :: Plone",
+        "Framework :: Plone :: 5.0",
         "Programming Language :: Python",
         ],
       keywords='',
-      author='',
-      author_email='',
-      url='http://svn.plone.org/svn/collective/',
+      author='Mikel Larreategi',
+      author_email='mlarreategi@codesyntax.com',
+      url='https://github.com/codesyntax/cs.plone5.tinymcepatch',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['cs', 'cs.plone5'],
@@ -26,6 +27,7 @@ setup(name='cs.plone5.tinymcepatch',
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
+          'Products.CMFPlone>5.0,<=5.0.6',
       ],
       entry_points="""
       # -*- Entry points: -*-
