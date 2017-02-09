@@ -2,3 +2,4 @@ recursive-include cs *.txt
 recursive-include cs *.zcml
 recursive-include docs *.GPL
 recursive-include docs *.txt
+include LICENSE
