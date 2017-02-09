@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.2.dev0'
+version = '1.0.3'
 
 setup(name='cs.plone5.tinymcepatch',
       version=version,
