@@ -7,7 +7,7 @@ from zope.component.hooks import getSite
 from zope.component import getUtility
 
 
-def __new__init(self, context, request):
+def __new__init__(self, context, request):
     self.context = context
     self.request = request
     self.portal = getSite()
@@ -17,8 +17,7 @@ def __new__init(self, context, request):
     self.portal_url = get_portal_url(self.context)
 
 
-TinyMCESettingsGenerator.__old__init__ = TinyMCESettingsGenerator.__old__init__
-TinyMCESettingsGenerator.__init__ = __new__init
+TinyMCESettingsGenerator.__init__ = __new__init__
 
 
 log = getLogger('cs.plone5.tinymcepatch')
