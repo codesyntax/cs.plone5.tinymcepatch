@@ -4,8 +4,7 @@ Changelog
 1.2 (unreleased)
 ----------------
 
-- Nothing changed yet.
-
+- Brown bag [erral]
 
 1.0.2 (2017-02-09)
 ------------------
